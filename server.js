@@ -28,6 +28,6 @@ app.get('/', (req, res) => {
 });
 });
 
-app.listen(8080, () => {
+app.listen(process.env.PORT, () => {
 	console.log("app now running");
 });
